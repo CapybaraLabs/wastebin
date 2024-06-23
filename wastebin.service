@@ -1,0 +1,14 @@
+[Unit]
+Description=Wastebin
+After=network.target
+
+[Service]
+User=wastebin
+Type=simple
+WorkingDirectory=/opt/wastebin
+#ExecStart=/usr/local/bin/npm start
+ExecStart=/usr/bin/node server.js
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
