@@ -33,6 +33,7 @@
   },
 
   "storage": {
+    "path": "/opt/wastebin/data",
     "type": "file"
   },
 
