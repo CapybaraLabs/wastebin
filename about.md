@@ -38,8 +38,7 @@ right now.
 
 ## Duration
 
-Pastes will stay for 30 days from their last view.  They may be removed earlier
-and without notice.
+Pastes will stay forever.  They may be removed earlier and without notice.
 
 ## Privacy
 
@@ -59,3 +58,4 @@ Haste can easily be installed behind your network, and it's all open source!
 
 Code by John Crepezzi <john.crepezzi@gmail.com>
 Key Design by Brian Dawson <bridawson@gmail.com>
+Hosted by Schnapster <napster@npstr.space>
