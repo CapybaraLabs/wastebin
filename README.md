@@ -290,12 +290,12 @@ For this example we will run haste-server, and connect it to a redis server
 docker run --name haste-server-container --env STORAGE_TYPE=redis --env STORAGE_HOST=redis-server --env STORAGE_PORT=6379 haste-server
 ```
 
-### Use docker-compose example
+### Use compose example
 
-There is an example `docker-compose.yml` which runs haste-server together with memcached
+There is an example `compose.yaml` which runs haste-server together with memcached
 
 ```bash
-docker-compose up
+docker compose up
 ```
 
 ### Configuration
